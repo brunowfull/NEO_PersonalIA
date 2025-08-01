@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Resumo do Pedido{% endblock %}
+
+{% block content %}
+    <h1>Resumo do Pedido</h1>
+    <p>Your order has been created successfully.</p>
+    <a href="{% url 'product_list' %}">Back to Product List</a>
+{% endblock %}
